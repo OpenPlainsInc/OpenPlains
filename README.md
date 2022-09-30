@@ -6,14 +6,26 @@
 
 OpenPlains is a GRASS GIS platform that enable running GRASS GIS in the cloud using Actinia as its geospatial computational API.
 
-<!-- [![react-savana-tests](https://github.com/tomorrownow/TomorrowNowApp/actions/workflows/node.js.yml/badge.svg)](https://github.com/tomorrownow/TomorrowNowApp/actions/workflows/node.js.yml)
-[![django-savana-tests](https://github.com/tomorrownow/TomorrowNowApp/actions/workflows/django.yml/badge.svg)](https://github.com/tomorrownow/TomorrowNowApp/actions/workflows/django.yml) -->
+Manage your grassdata from the interactive data view.
+![data](./images/data_view.png)
+
+Explore metadata.
+![data](./images/info_view.png)
+
+Find and run GRASS modules.
+![data](./images/grass_modules_view.png)
+
+Build Custom Applications
+![video](./images/stormy_loader-optimized.gif)
+
+<!-- [![react-savana-tests](https://github.com/tomorrownow/OpenPlains/actions/workflows/node.js.yml/badge.svg)](https://github.com/tomorrownow/OpenPlains/actions/workflows/node.js.yml)
+[![django-savana-tests](https://github.com/tomorrownow/OpenPlains/actions/workflows/django.yml/badge.svg)](https://github.com/tomorrownow/OpenPlains/actions/workflows/django.yml) -->
 
 > **Disclaimer:** The OpenPlains project is currently in an experimental phase and therefore breaking changes and project restructuring will occur without notice. We recommend waiting until the first stable version is released before considering using the project in any form.
 
 ## Getting Started
 
-Docker compose containers and client port bindings. Currently we are comparing different cloud optimaized geotiff (cog) servers so that is why there are so many at the moment.
+Docker compose containers and client port bindings.
 
 | Service  | Description | Port |
 | -----------   | ----------- | -------- |
@@ -31,20 +43,6 @@ Docker compose containers and client port bindings. Currently we are comparing d
 
 #### Settings
 
-Update the settings file
-
-* actinia/.sample.actinia.env -> .actinia.env
-* actinia/sample.actinia.cfg -> actinia.cfg
-* api/.sample.env -> .env
-* geoserver/.sample.env -> .env
-
-##### TODO
-
-* Setup docker-compose-dev-local.yml
-* Fix GCP in actinia/Dockerfile
-* Run django migrations 
-* Auto create actinia postgres db and role
-
 ### Start app
 
 ```bash
@@ -58,8 +56,6 @@ docker-compose down
 ```
 
 ## API
-
-[Django Docker Docs](https://docs.docker.com/samples/django/)
 
 ### Create new app
 
@@ -125,4 +121,3 @@ docker-compose run api python manage.py test <appname>
 docker-compose run webapp npm install
 
 ```
-
