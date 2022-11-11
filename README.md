@@ -3,7 +3,8 @@
 ![logo](./images/banner_v1_500px.png)
 
 > Currently migrating project from TomorrowNowApp repository.
-> **Disclaimer:** The OpenPlains project is currently in an experimental phase and therefore breaking changes and project restructuring will occur without notice. We recommend waiting until the first stable version is released before considering using the project in any form.
+
+**Disclaimer:** The OpenPlains project is in an experimental phase and therefore breaking changes and project restructuring will occur without notice. We recommend waiting until the first stable version is released before considering using the project in any form.
 
 ## GRASS GIS in the Browser
 
