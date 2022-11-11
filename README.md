@@ -63,3 +63,9 @@ View the upstream contributing area and time-series data.
 Provide feedback on UI our flow diagram.
 
 [Interactive Site Map](https://lucid.app/lucidchart/116fb402-c6c9-4632-a0e9-48f9865152c6/edit?viewport_loc=-7361%2C-2960%2C14782%2C7613%2C0_0&invitationId=inv_9219e566-88ff-4d7c-b546-11fff697c298)
+
+## Contributing
+
+In general: you don't really need write access as you can simply open a pull request to contribute to OpenPlains. See CONTRIBUTING file for more details.
+
+Contributing Guidlines adopted from [GRASS GIS](https://github.com/OSGeo/grass)
