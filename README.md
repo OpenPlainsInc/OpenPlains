@@ -1,123 +1,36 @@
-# OpenPlains
+# [WIP] OpenPlains
 
 ![logo](./images/banner_v1_500px.png)
 
 > Currently migrating project from TomorrowNowApp repository.
+> **Disclaimer:** The OpenPlains project is currently in an experimental phase and therefore breaking changes and project restructuring will occur without notice. We recommend waiting until the first stable version is released before considering using the project in any form.
 
 OpenPlains is a GRASS GIS platform that enable running GRASS GIS in the cloud using Actinia as its geospatial computational API.
 
 Manage your grassdata from the interactive data view.
-![data](./images/data_view.png)
+![data](./images/data_view1.png)
 
 Explore metadata.
-![data](./images/info_view.png)
+![metadata](./images/info_view1.png)
 
 Find and run GRASS modules.
-![data](./images/grass_modules_view.png)
+![modules](./images/grass_modules_view1.png)
 
 Build Custom Applications
+
+## Spatial-Temporal Watershed Modeling
+
+![watershed](./images/CustomWatershedModelingView.png)
 ![video](./images/stormy_loader-optimized.gif)
 
-<!-- [![react-savana-tests](https://github.com/tomorrownow/OpenPlains/actions/workflows/node.js.yml/badge.svg)](https://github.com/tomorrownow/OpenPlains/actions/workflows/node.js.yml)
-[![django-savana-tests](https://github.com/tomorrownow/OpenPlains/actions/workflows/django.yml/badge.svg)](https://github.com/tomorrownow/OpenPlains/actions/workflows/django.yml) -->
+## Urban Growth Forcasting
 
-> **Disclaimer:** The OpenPlains project is currently in an experimental phase and therefore breaking changes and project restructuring will occur without notice. We recommend waiting until the first stable version is released before considering using the project in any form.
+![futures](./images/CustomModelingView.png)
 
-## Getting Started
+## Feedback
 
-Docker compose containers and client port bindings.
+[Gitter](https://gitter.im/tomorrownow/community)
 
-| Service  | Description | Port |
-| -----------   | ----------- | -------- |
-| api           | Django 4.2.1  | 8005     |
-| actinia | Actinia 4.1.0 | 8088     |
-| webapp      | React       | 3000     |
-| db      | Postgresql + PostGIS | 5431 |
-| actinia-redis | redis | 6379 |
-| django-redis-cache |  redis | 6370 |
-| celery_worker |  celery | NA |
-| titiler | titiler | 7000 |
-| geoserver | geoserver | 8600 |
+Provide feedback on UI our flow diagram.
 
-### Configuration
-
-#### Settings
-
-### Start app
-
-```bash
-docker-compose up
-```
-
-### Stop app
-
-```bash
-docker-compose down
-```
-
-## API
-
-### Create new app
-
-Run inside of web container
-
-```bash
-docker-compose run api python manage.py startapp <appname>
-```
-
-Creates or updates models and store changes as a migration
-
-```bash
-# Create migrations
-docker-compose run api python manage.py makemigrations <appname>
-
-# Apply changes to database
-docker-compose run api python manage.py migrate
-```
-
-### Collect Static Files
-
-```bash
-docker-compose run api python manage.py collectstatic
-```
-
-### View Django urls
-
-```bash
-docker-compose run api python manage.py show_urls
-```
-
-### Start Django Shell
-
-```bash
-docker-compose run api python manage.py shell
-```
-
-#### Start Django Jupyter Notebook
-
-```bash
-docker-compose run api python manage.py shell_plus --notebook
-```
-
-```python
-from savana.utils import actinia
-actinia.locations()
-```
-
-### Testing
-
-```bash
-docker-compose run api python manage.py test <appname>
-```
-
-## Front End (webapp/)
-
-### Install new NPM modules
-
-<https://www.docker.com/blog/keep-nodejs-rockin-in-docker/>
-
-```bash
-
-docker-compose run webapp npm install
-
-```
+[Interactive Site Map](https://lucid.app/lucidchart/116fb402-c6c9-4632-a0e9-48f9865152c6/edit?viewport_loc=-7361%2C-2960%2C14782%2C7613%2C0_0&invitationId=inv_9219e566-88ff-4d7c-b546-11fff697c298)
