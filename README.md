@@ -12,16 +12,22 @@ OpenPlains is a GRASS GIS platform that enable running GRASS GIS in the cloud us
 
 ### Manage Data
 
-Manage your grassdata from the interactive data view.
+#### Manage your grassdata locations and mapsets
+
+![data](./images/manage_grassdata.png)
+
+#### Explore your data
 
 ![data](./images/data_view1.png)
 
-Explore metadata.
+#### Explore metadata
+
 ![metadata](./images/info_view1.png)
 
-### Run GRASS Module
+### Run GRASS Modules
 
-Find and run GRASS modules.
+#### Find and run GRASS modules
+
 ![modules](./images/grass_modules_view1.png)
 
 ### Build Models
@@ -32,8 +38,19 @@ Coming Soon...
 
 #### Spatial-Temporal Watershed Modeling
 
+Click on the map to calculate the land cover evolution of the upstream contributing area.
+
 ![watershed](./images/CustomWatershedModelingView.png)
+
+Wait for the results...
+
 ![video](./images/stormy_loader-optimized.gif)
+
+View the upstream contributing area and time-series data.
+
+![beavercreek](./images/BeaverCreekTimeSeries.png)
+
+![gif](./images/BeaverCreek.gif)
 
 #### Urban Growth Forcasting
 
