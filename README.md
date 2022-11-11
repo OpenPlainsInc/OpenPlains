@@ -5,25 +5,36 @@
 > Currently migrating project from TomorrowNowApp repository.
 > **Disclaimer:** The OpenPlains project is currently in an experimental phase and therefore breaking changes and project restructuring will occur without notice. We recommend waiting until the first stable version is released before considering using the project in any form.
 
-OpenPlains is a GRASS GIS platform that enable running GRASS GIS in the cloud using Actinia as its geospatial computational API.
+## GRASS GIS in the Browser
+
+OpenPlains is a GRASS GIS platform that enable running GRASS GIS in the cloud using Actinia as its geospatial computational API. With OpenPlains you can use GRASS GIS in the browser or develop your own custom GRASS based web applications.
+
+### Manage Data
 
 Manage your grassdata from the interactive data view.
+
 ![data](./images/data_view1.png)
 
 Explore metadata.
 ![metadata](./images/info_view1.png)
 
+### Run GRASS Module
+
 Find and run GRASS modules.
 ![modules](./images/grass_modules_view1.png)
 
-Build Custom Applications
+### Build Models
 
-## Spatial-Temporal Watershed Modeling
+Coming Soon...
+
+### Develop Custom Applications
+
+#### Spatial-Temporal Watershed Modeling
 
 ![watershed](./images/CustomWatershedModelingView.png)
 ![video](./images/stormy_loader-optimized.gif)
 
-## Urban Growth Forcasting
+#### Urban Growth Forcasting
 
 ![futures](./images/CustomModelingView.png)
 
