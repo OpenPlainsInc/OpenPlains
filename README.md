@@ -50,7 +50,7 @@ View the upstream contributing area and time-series data.
 
 ![beavercreek](./images/BeaverCreekTimeSeries.png)
 
-![gif](./images/BearCreek.gif)
+![gif](./images/BearCreek1.gif)
 
 #### Urban Growth Forcasting
 
