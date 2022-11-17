@@ -1,6 +1,6 @@
 # [WIP] OpenPlains
 
-![logo](./images/banner_v1_500px.png)
+![logo](./images/OP_logo_v5.png)
 
 > Currently migrating project from TomorrowNowApp repository.
 
