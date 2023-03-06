@@ -1,5 +1,7 @@
 # [WIP] OpenPlains
 
+[![DOI](https://zenodo.org/badge/528323983.svg)](https://zenodo.org/badge/latestdoi/528323983)
+
 ![logo](./images/OP_logo_v5.png)
 
 > Currently migrating project from TomorrowNowApp repository.
